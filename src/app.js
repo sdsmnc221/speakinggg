@@ -244,7 +244,7 @@ class Recognition {
         size:
           (window.innerWidth / 100) *
           word.length *
-          (word.length > 10 ? 0.5 : 1),
+          (word.length > 10 ? 0.2 : 0.8),
         fill: '#fff',
         paddingLeft: 40,
         paddingRight: 40,
