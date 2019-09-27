@@ -731,4 +731,15 @@ class App {
   }
 }
 
-window.onload = () => (window.app = new App('.app'))
+window.onload = () => {
+  window.app = new App('.app')
+
+  setTimeout(() => {
+    anime({
+      targets: document.querySelector('.app__overlay'),
+      easing: 'easeOutSine',
+      opacity: 0,
+      scale: 0
+    })
+  }, 4000);
+}
