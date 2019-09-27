@@ -47,5 +47,6 @@ Check out deploy on heroku for details.
 * Speech Recognition / Web Audio API
 * socket.io
 * Vanilla vanilla
+* Freepik
  
 
