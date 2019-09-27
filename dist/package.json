@@ -1,0 +1,9 @@
+{
+  "name": "speakinggg",
+  "version": "1.0.0",
+  "description": "speakinggg",
+  "author": "sdsmnc",
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
